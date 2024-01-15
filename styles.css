@@ -1,0 +1,37 @@
+/* shared */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
+.text-primary {
+    color: #FF5400;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    font-family: 'Mulish', sans-serif;
+}
+
+.nav-title {
+    font-family: 'Mulish';
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-title::before {
+    content: url(Images/Group\ 40071\ \(2\).png);
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+}
