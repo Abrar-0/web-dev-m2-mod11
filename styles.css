@@ -451,8 +451,22 @@ nav li {
 }
 
 .deal-info{
+    margin-top: 60px;
+    margin-left: 650px;
     max-width: 380px;
-    padding: 50px 50px;
+    padding: 30px 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    font-family: 'Mulish';
+}
+
+.deal-info1{
+    margin-top: 60px;
+    margin-left: 50px;
+    max-width: 380px;
+    padding: 30px 30px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
@@ -493,4 +507,8 @@ nav li {
    font-weight: 800;
    margin-bottom: 24px;
    font-family: 'Mulish';
+}
+.discount-button{
+    text-align: center;
+    margin: 48px auto 0;
 }
