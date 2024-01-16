@@ -69,9 +69,8 @@ nav li {
 .banner-container {
 
     margin-top: 49px;
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    background-color: #FF5400;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -406,4 +405,92 @@ nav li {
     margin-bottom: 24px;
     font-family: 'Mulish';
 
+}
+.discount-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    font-family: 'Mulish';
+    width: 643px;
+    margin:0 auto;
+    margin-bottom: 48px;
+}
+.discount-deals{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.discount-deal1{
+    border-radius: 16px;
+    background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+    width: 1170px;
+    height: 500px;
+    
+}
+
+.discount-deal2{
+    border-radius: 16px;
+    background: url(Images/Group\ 40.png), lightgray 50% / cover no-repeat;
+    width: 1170px;
+    height: 500px;
+
+}
+
+.discount-deal3{
+    border-radius: 16px;
+    background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+    width: 1170px;
+    height: 500px;
+
+}
+
+.deal-info{
+    max-width: 380px;
+    padding: 50px 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    font-family: 'Mulish';
+}
+
+.deal-info-icons{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    color: #5A5A5D;
+   font-size: 16px;
+   font-weight: 400;
+
+}
+
+.deal-info-title{
+    margin-bottom: 16px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Mulish';
+}
+
+.deal-info-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+    font-family: 'Mulish';
+}
+
+.deal-info-price{
+    color: #FF5400;
+   font-size: 20px;
+   font-weight: 800;
+   margin-bottom: 24px;
+   font-family: 'Mulish';
 }
