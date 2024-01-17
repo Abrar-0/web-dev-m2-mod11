@@ -774,6 +774,9 @@ footer {
     font-weight: 300;
     
 }
+#icon{
+    visibility: hidden;
+}
 
 /* responsive */
 @media(max-width:600px){
@@ -782,11 +785,18 @@ footer {
     .nav{
         justify-content: center;
     }
-
+    .nav-bar{
+        visibility: hidden;
+    }
+    #icon{
+        visibility: visible;
+        padding-left: 150px;
+    }
     .header{
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    
     .banner-container{
         width: 100%;
     }
@@ -811,10 +821,85 @@ footer {
      .tours-img img{
        width: 100%;
      }
-     .pp-image-tt{
+    .destination-container{
         
-        text-align: center;
+        /* margin-left: 10px;
+        padding-right: 10px; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+    .destination-description{
+        width:100%;
+    }
+    .destination-img-container{
+         display: flex;
+         flex-direction: column;
+    }
+    .choose-container{
+      
+        /* margin-left: 10px;
+        padding-right: 10px; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+    .choose-description{
+        width: 100%;
+    }
+    .choose-card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .discount-container{
+        display:none ;
+    }
+    .perfect-container{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 10px;
+        padding-right: 10px; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .perfect-img{
+        width:100%
+    }
+
+    .newsletter-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        justify-content: center;
+    }
+
+    .newsletter-content{
+          width: 100%;
+    }
+    .newsletterinp, .subs-button{
+        width:30px;
+    }
+    
+    .newsletter-img{
+        width: 100%;
+        height: 522px;
+        
+    }
+
+    .newsletter-content-title, .newsletter-content-description{
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
+
+    .footer{
+        width: 100%;
+        
+    }
+
+    .footer-description{
+        width: 100%;
+    }
 }
