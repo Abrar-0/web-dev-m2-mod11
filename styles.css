@@ -565,6 +565,7 @@ nav li {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    margin-left: 100px;
 
 }
 
@@ -774,3 +775,46 @@ footer {
     
 }
 
+/* responsive */
+@media(max-width:600px){
+
+
+    .nav{
+        justify-content: center;
+    }
+
+    .header{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .banner-container{
+        width: 100%;
+    }
+
+    .banner-input{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tours-container{
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 100%;
+    }
+
+    .tours-description{
+        width: 100%;
+     }
+
+     .tours-img img{
+       width: 100%;
+     }
+     .pp-image-tt{
+        
+        text-align: center;
+    }
+
+
+}
